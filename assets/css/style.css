@@ -1,0 +1,129 @@
+:root {
+    --warna-ungu-brand: #732091;
+    --warna-hitam-normal: #14042C;
+    --warna-kuning-samping: #FFE3B3;
+    --warna-abu-khusus: #4C4C4C;
+}
+
+@font-face {
+    font-family: "Satoshi-Bold"; 
+    src: local("Satoshi-Bold"), url("Satoshi-Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Satoshi-Medium"; 
+    src: local("Satoshi-Medium"), url("Satoshi-Medium.otf") format("otf");
+  }
+
+ @font-face {
+    font-family: "Satoshi-Regular"; 
+    src: local("Satoshi-Regular"), url("Satoshi-Regular.otf") format("otf");
+}
+  
+h1{
+    font-size: 76px !important;
+    font-weight: 700;
+    font-family: "Satoshi-Bold"
+}
+
+h2{
+
+    font-weight: 700;
+    font-size: 30px !important;
+    font-family: "Satoshi-Bold"
+}
+
+body {
+    font-family: "Satoshi", sans-serif; /* Gunakan font lokal atau font cadangan */
+}
+
+.main-kiri{
+    background-color: var(--warna-kuning-samping);
+
+}
+
+.main-kanan{
+  
+}
+
+
+.logo-big{
+    color: var(--warna-ungu-brand);
+    
+}
+
+
+.auth-card{
+    width: 65%;
+    font-family: "Satoshi", sans-serif;
+}
+
+.btn-full{
+    width: 100%;
+    background-color: var(--warna-ungu-brand);
+    color: white;
+    border: none;
+    height:40px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-full:hover {
+    background-color: transparent;
+    color: var(--warna-ungu-brand);
+    border: 2px solid var(--warna-ungu-brand); 
+}
+
+.auth-button-card{
+    width: 100%;
+
+}
+
+.btn-quarter-solid{
+    width: 30% !important;
+    background-color: transparent;
+    color: var(--warna-ungu-brand);
+    border: 2px solid var(--warna-ungu-brand);
+    height:40px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.btn-quarter-outline{
+    width: 30%;
+    background-color: var(--warna-ungu-brand);
+    color: white;
+    border: none;
+    height:40px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-quarter-solid:hover {
+    background-color: var(--warna-ungu-brand);
+    color: white;
+    
+}
+
+.btn-quarter-outline:hover {
+    background-color: transparent;
+    color: var(--warna-ungu-brand);
+    border: 2px solid var(--warna-ungu-brand);
+}
+
+.auth-option-card{
+    color: var(--warna-abu-khusus);
+    font-size: 12px;
+}
+
+span{
+    color: var(--warna-ungu-brand);
+    font-family: "Satoshi-Bold";
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
