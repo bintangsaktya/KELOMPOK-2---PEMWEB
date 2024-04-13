@@ -81,6 +81,11 @@ a {
     font-family: 'Satoshi';
 }
 
+.wrap-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 /*BARANG PAGE*/
 /*NAVBAR*/
 .nav-text2 {
