@@ -11,13 +11,32 @@ Dibuat oleh:
 Unifind adalah sebuah website yang digunakan untuk mencari benda yang hilang berdasarkan postingan orang-orang yang menemukan barang.
 
 # Keterangan
+Dalam membuat website, kami menggunakan PDO untuk melakukan CRUD dengan database MySQL
+
 ## Tabel
 - Tabel Barang 
+  - id_barang (smallint) (PK)
+  - id_user (smallint) (FK)
+  - nama_barang (varchar)
+  - deskripsi (varchar)
+  - lokasi (varchar)
+  - img_url (varchar)
+  
 - Tabel Pengguna
+  - id (smallint) (PK)
+  - nama (varchar)
+  - email (varchar)
+  - password (varchar)
+  - username (varchar)
+  - bio (varchar)
+  - no_tlp (varchar)
 
 ## Fitur Upload File
+Upload file digunakan saat mengupload gambar barang dan gambar profile user
 
-## Penggunaan Cookie dan Session
+## Penggunaan Cookie / Session
+Website kami hanya menggunakan session untuk menyimpan data user yang terlogin dan melakukan pengecekan jika user telah login atau tidak sebelum mengakses page lain
 
 ## Penggunaan Ajax
+Untuk ajax, website kami menggunakan library Axios untuk melakukan POST dan PUT
 
