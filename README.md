@@ -20,6 +20,7 @@ Dalam membuat website, kami menggunakan PDO untuk melakukan CRUD dengan database
   - nama_barang (varchar)
   - deskripsi (varchar)
   - lokasi (varchar)
+  - tanggal (varchar)
   - img_url (varchar)
   
 - Tabel Pengguna
