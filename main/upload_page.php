@@ -137,7 +137,7 @@ if (!isset($_SESSION['id'])) {
       formData.append("file", image.files[0]);
 
       if (!!nama_barang && !!deskripsi && !!lokasi) {
-        axios.post("http://localhost/PW_project/controller/createPost.php", formData, {
+        axios.post("http://localhost/PW_project/controller/createPost.php" /* Sesuaikan dengan URL file pada XAMPP */, formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           },

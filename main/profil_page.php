@@ -164,7 +164,7 @@ if (!isset($_SESSION['id'])) {
       formData.append("file", image.files[0]);
 
       if (!!nama && !!username && !!no_tlp) {
-        axios.post("http://localhost/PW_project/controller/userUpdate.php", formData, {
+        axios.post("http://localhost/PW_project/controller/userUpdate.php" /* Sesuaikan dengan URL file pada XAMPP */, formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           },
