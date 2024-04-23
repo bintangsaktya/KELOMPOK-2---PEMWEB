@@ -4,7 +4,7 @@
 Dibuat oleh:
 - Muhammad Bintang Saktya R (225150407111051)
 - Noval Raihan Ramadhan (225150407111056)
-- Muhammad Hansel Abilo (225150407111049)
+- Steven Hansel Abilo (225150407111049)
 - Aditya Rizki Pratama (225150400111023)
 
 # Penjelasan Project
